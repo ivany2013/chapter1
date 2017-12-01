@@ -12,7 +12,7 @@
     <title>Hello</title>
 </head>
 <body>
-<h1>111</h1>
+<h1>${name}</h1>
 <table>
     <tr>
     <td>名称</td>
