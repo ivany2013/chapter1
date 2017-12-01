@@ -12,7 +12,7 @@ import java.util.Date;
 /**
  * Created by mysteel-xl on 2017/11/7.
  */
-@WebServlet("/hello")
+/*@WebServlet("/hello")*/
 public class HelloServlet extends HttpServlet{
 
     @Override

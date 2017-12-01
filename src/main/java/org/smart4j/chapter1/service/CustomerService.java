@@ -1,13 +1,15 @@
 package org.smart4j.chapter1.service;
 
-import org.smart4j.chapter1.help.DataBaseHelper;
 import org.smart4j.chapter1.model.Customer;
+import org.smart4j.framework.annotation.Service;
+import org.smart4j.framework.helper.DataBaseHelper;
 
 import java.util.List;
 
 /**
  * Created by mysteel-xl on 2017/11/13.
  */
+@Service
 public class CustomerService {
 
     public List<Customer> getCustomerList() {
